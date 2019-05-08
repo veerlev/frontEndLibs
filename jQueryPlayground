@@ -1,6 +1,6 @@
 <script>
   $(document).ready(function(){
-  
+    $("#target1").css("color", "red");
   });
 </script>
 <!-- include both the jQuery library and the Animate.css -->
