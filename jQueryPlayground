@@ -1,9 +1,6 @@
 <script>
   $(document).ready(function(){
-    $("button").addClass("animated");
-    $(".btn").addClass("shake");
-    $("#target1").addClass("btn-primary");
-    $("button").removeClass("btn-default");
+  
   });
 </script>
 <!-- include both the jQuery library and the Animate.css -->
