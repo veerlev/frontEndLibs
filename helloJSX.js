@@ -1,6 +1,6 @@
 
 const JSX = 
-<div id="challenge-node">
+<div id="challenge-node"  className="myDiv">
     <h1></h1>
     <p>Hello JSX!</p>
     <ul>
