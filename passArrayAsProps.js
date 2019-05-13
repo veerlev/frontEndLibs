@@ -1,6 +1,6 @@
 const List= (props) => {
   { /* change code below this line */ }
-  return <p>{}</p>
+  return <p>{props.tasks.join(", ")}</p>
   { /* change code above this line */ }
 };
 
@@ -14,9 +14,9 @@ class ToDo extends React.Component {
         <h1>To Do Lists</h1>
         <h2>Today</h2>
         { /* change code below this line */ }
-        <List/>
+        <List tasks={["plant seedlings", "prune hortensias", "trim grass"]}/>
         <h2>Tomorrow</h2>
-        <List/>
+        <List tasks={["pick peonies", "smell roses", "water orchids"]}/>
         { /* change code above this line */ }
       </div>
     );
